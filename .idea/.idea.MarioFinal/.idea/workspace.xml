@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d96f5276-f116-497e-bdea-9fc344bfab17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mario.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mario.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mario/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mario/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectController/fenceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectController/fenceController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FloorIsLava.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloorIsLavatwo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FinalMoon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectController/fenceController.cs" />
+        <option value="$PROJECT_DIR$/Assets/BossCap.cs" />
       </list>
     </option>
   </component>
@@ -66,6 +72,9 @@
       <workItem from="1611315156024" duration="363000" />
       <workItem from="1611340000419" duration="111000" />
       <workItem from="1611340371627" duration="273000" />
+      <workItem from="1611345187206" duration="797000" />
+      <workItem from="1611346802009" duration="128000" />
+      <workItem from="1611347025283" duration="278000" />
     </task>
     <servers />
   </component>

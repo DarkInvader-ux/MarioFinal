@@ -5,6 +5,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BossCap.cs" t="Include" />
         <e p="Cameras" t="Include">
           <e p="CameraGuidelines.txt" t="Include" />
           <e p="Scripts" t="Include">
@@ -69,7 +70,6 @@
             <e p="Gibberish.cs" t="Include" />
             <e p="NPC.cs" t="Include" />
           </e>
-          <e p="FinalMoon.cs" t="Include" />
           <e p="Floor" t="Include">
             <e p="FloorIsLava.cs" t="Include" />
             <e p="FloorIsLavatwo.cs" t="Include" />
@@ -85,6 +85,7 @@
             <e p="PauseMenu.cs" t="Include" />
           </e>
           <e p="Moon" t="Include">
+            <e p="FinalMoon.cs" t="Include" />
             <e p="Moon.cs" t="Include" />
           </e>
           <e p="ObjectController" t="Include">

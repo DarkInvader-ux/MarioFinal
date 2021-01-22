@@ -20,6 +20,7 @@
       <Path>Library</Path>
       <Path>Temp</Path>
       <Path>obj</Path>
+      <Path>trial2.0.app</Path>
     </explicitExcludes>
   </component>
 </project>
