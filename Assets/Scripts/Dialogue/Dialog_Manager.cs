@@ -35,7 +35,6 @@ public class Dialog_Manager : MonoBehaviour
     private void ShowText()
     {
         dialogText.text = conversation[convoIndex];
-        AudioManager.Instance.PlaySound(Sounds.Dialogue, transform.position);
     }
 
     private void Next()

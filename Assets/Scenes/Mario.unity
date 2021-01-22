@@ -5824,6 +5824,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.632522, y: 2.884408, z: 3.991947}
   m_Center: {x: -0.1937347, y: 0.9422048, z: 1.4959763}
+--- !u!114 &677985517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677985511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aed6852561114f07bcfdac874a32590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &697127193 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f0ccb724cb7774c52a3bfbc046323b79,
@@ -6602,7 +6614,7 @@ Transform:
   m_GameObject: {fileID: 848200147}
   m_LocalRotation: {x: -0.13666455, y: -0.052882, z: 0.0003793524, w: 0.9892048}
   m_LocalPosition: {x: -0.18, y: 0.68, z: -0.15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3586, y: 1, z: 0.87618}
   m_Children: []
   m_Father: {fileID: 1324090095}
   m_RootOrder: 0
@@ -7810,7 +7822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &934876891
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11600,7 +11612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LookRadius: 25.93
-  patrolController: {fileID: 1324090097}
+  patrolController: {fileID: 0}
 --- !u!64 &1324090091
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11655,26 +11667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96da262d8a30c44e8aa67cbe23698773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LookRadius: 32.65
---- !u!114 &1324090097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324090089}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3577c7d077c28495ebc21bf99d3f90a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 9.4
-  MoveSpots:
-  - {fileID: 1361482453}
-  - {fileID: 985341111}
-  - {fileID: 624474411}
-  - {fileID: 1335519225}
-  StartWaitTime: 3
+  LookRadius: 34.77
 --- !u!1 &1335519224
 GameObject:
   m_ObjectHideFlags: 0
@@ -13241,8 +13234,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bd45f04dbf2314915a8b7519adbcd2a5, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -14949,8 +14942,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 34b5a3a450d524e54b0be52f61f44f74, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.16
+  m_Pitch: 0.66
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -16371,9 +16364,9 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 6.14
   m_Speed: 3.5
-  m_Acceleration: 8
+  m_Acceleration: 11.7
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 126.8
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -16394,7 +16387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32e80ede5dd2f445097b187717080799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LookRadius: 16.64
+  LookRadius: 47.3
   patrolController: {fileID: 1850603381}
 --- !u!64 &1850603377
 MeshCollider:
@@ -16905,7 +16898,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e0b7fbdb3e0ad412c929d3d67411443b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.84
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -18748,7 +18741,7 @@ GameObject:
   - component: {fileID: 2050810228}
   - component: {fileID: 2050810231}
   m_Layer: 5
-  m_Name: CAnvas
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18879,7 +18872,7 @@ Transform:
   m_GameObject: {fileID: 2065969222}
   m_LocalRotation: {x: -0.115745485, y: 1.1641532e-10, z: -0, w: 0.9932789}
   m_LocalPosition: {x: -0.03, y: 0.973, z: -0.353}
-  m_LocalScale: {x: 0.7149813, y: 0.15097359, z: 0.88391703}
+  m_LocalScale: {x: 0.91810757, y: 0.1938652, z: 1.1350379}
   m_Children: []
   m_Father: {fileID: 1850603373}
   m_RootOrder: 0
