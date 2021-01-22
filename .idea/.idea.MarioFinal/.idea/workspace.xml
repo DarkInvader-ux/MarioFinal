@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d96f5276-f116-497e-bdea-9fc344bfab17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarioFinal/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mario.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mario.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
@@ -18,6 +20,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/FloorIsLava.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloorIsLavatwo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FinalMoon.cs" />
       </list>
     </option>
   </component>
@@ -61,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611315145016</updated>
       <workItem from="1611315156024" duration="363000" />
+      <workItem from="1611340000419" duration="111000" />
+      <workItem from="1611340371627" duration="273000" />
     </task>
     <servers />
   </component>

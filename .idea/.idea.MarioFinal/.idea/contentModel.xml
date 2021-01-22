@@ -66,10 +66,14 @@
           </e>
           <e p="Dialogue" t="Include">
             <e p="Dialog_Manager.cs" t="Include" />
+            <e p="Gibberish.cs" t="Include" />
             <e p="NPC.cs" t="Include" />
           </e>
-          <e p="FloorIsLava.cs" t="Include" />
-          <e p="FloorIsLavatwo.cs" t="Include" />
+          <e p="FinalMoon.cs" t="Include" />
+          <e p="Floor" t="Include">
+            <e p="FloorIsLava.cs" t="Include" />
+            <e p="FloorIsLavatwo.cs" t="Include" />
+          </e>
           <e p="Health" t="Include">
             <e p="playerhealth.cs" t="Include" />
           </e>
@@ -78,6 +82,7 @@
           </e>
           <e p="Menu" t="Include">
             <e p="MainMenu.cs" t="Include" />
+            <e p="PauseMenu.cs" t="Include" />
           </e>
           <e p="Moon" t="Include">
             <e p="Moon.cs" t="Include" />
