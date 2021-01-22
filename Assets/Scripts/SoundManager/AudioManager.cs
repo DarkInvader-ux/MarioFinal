@@ -58,6 +58,7 @@ public enum Sounds
     Moon,
     PurpleCoin,
     Button,
+    Dialogue,
 
 
 
