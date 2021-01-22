@@ -59,6 +59,7 @@ public enum Sounds
     PurpleCoin,
     Button,
     Dialogue,
+    Level_2_background,
 
 
 
