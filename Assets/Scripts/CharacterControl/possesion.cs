@@ -20,7 +20,7 @@ public class possesion : MonoBehaviour
             controlledObject = obj;
             controlledObject.Possess();
         }
-        AudioManager.Instance.PlaySound(Sounds.Level_2_background, transform.position);
+        
     }
  
     public void UnPossess()

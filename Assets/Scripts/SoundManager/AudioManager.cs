@@ -60,6 +60,7 @@ public enum Sounds
     Button,
     Dialogue,
     Level_2_background,
+    BossBattle,
 
 
 
